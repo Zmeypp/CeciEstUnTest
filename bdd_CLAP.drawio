@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T19:08:12.139Z" agent="5.0 (Windows)" etag="aT-olg8Y1N1qX_mb_yJD" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T21:07:26.447Z" agent="5.0 (Windows)" etag="23d5jGdlr0gb4MTDYYcO" version="20.5.1" type="github">
   <diagram id="yBaHxYRyqihLKzCcpQLK" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -181,15 +181,6 @@
         <mxCell id="g25fQMdyrHoz-TmWsy70-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="g25fQMdyrHoz-TmWsy70-137" target="g25fQMdyrHoz-TmWsy70-133" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g25fQMdyrHoz-TmWsy70-142" value="comment_like" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="970" width="200" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="g25fQMdyrHoz-TmWsy70-143" value="comment_id (integer) : foreign key" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="g25fQMdyrHoz-TmWsy70-142" vertex="1">
-          <mxGeometry y="30" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="g25fQMdyrHoz-TmWsy70-144" value="like_id (integer) : foreign key" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="g25fQMdyrHoz-TmWsy70-142" vertex="1">
-          <mxGeometry y="60" width="200" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="g25fQMdyrHoz-TmWsy70-146" value="likes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="760" y="900" width="140" height="60" as="geometry" />
         </mxCell>
@@ -221,12 +212,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g25fQMdyrHoz-TmWsy70-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="g25fQMdyrHoz-TmWsy70-152" target="g25fQMdyrHoz-TmWsy70-146" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="g25fQMdyrHoz-TmWsy70-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="g25fQMdyrHoz-TmWsy70-143" target="g25fQMdyrHoz-TmWsy70-137" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="g25fQMdyrHoz-TmWsy70-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="g25fQMdyrHoz-TmWsy70-144" target="g25fQMdyrHoz-TmWsy70-147" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g25fQMdyrHoz-TmWsy70-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="g25fQMdyrHoz-TmWsy70-157" target="g25fQMdyrHoz-TmWsy70-147" edge="1">
